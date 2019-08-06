@@ -1,0 +1,52 @@
+.row {
+	margin-bottom:10px;
+	width:220px;
+	text-align: center;
+}
+	.row label {
+		display:block;
+		font-weight:bold;
+		text-align: center;
+	}
+	.row input.text {
+		font-size:1.2em;
+		padding:2px 5px;
+		text-align: center;
+	}
+.to_reg {
+	font-size:0.9em;
+	text-align: center;
+}
+.instruction {
+	font-size:0.8em;
+	color:#aaaaaa;
+	margin-left:2px;
+	cursor:default;
+	text-align: center;
+}
+.error {
+	color:red;
+	margin-left:3px;
+	text-align: center;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.container p {
+    width: 400px;
+    padding: 15px;
+    background-color: #f1f1f1;
+}
